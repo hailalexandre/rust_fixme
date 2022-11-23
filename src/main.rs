@@ -50,8 +50,9 @@ fn main() {
         Color { red: 0, green: 0, blue: 0 },
     ].iter() {
         // Hint : Fix the code so you can print it using {}
-        /// The print statement below was updated so that instead of printing color* and getting an output that includes "color",
-        /// the output rather manually prints red, blue and green within the print statement so that the colors are displayed without "color" printed before it
+        /// The print statement below was updated so that instead of printing color* and getting an output that includes the "color{}"
+        /// display in front of the statements, the output rather manually prints each color and the number associated with it inside
+        /// the print statement so that the colors are displayed without "color{}" printed before it
         println!("Red: {}, Green: {}, Blue: {}", color.red, color.green, color.blue);
     }
 }
